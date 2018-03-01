@@ -11,16 +11,15 @@ end
 def summon_captain_planet(planeteer_calls)
 
   planeteer_calls.map do |x|
-
-              x.capitalize + "!"
-
-    
-
-   end
-
+    x.capitalize + "!"
+  end
 end
 
-def long_planeteer_calls# code an argument here
+
+def long_planeteer_calls(array)
+  array.any? do |word|
+  word.length > 4
+end
   # Your code here
 end
 
