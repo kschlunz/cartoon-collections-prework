@@ -10,7 +10,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
 
-  planeteer_calls.collect do |x|
+  planeteer_calls.map do |x|
     puts x.upcase + "!"
    end
 
