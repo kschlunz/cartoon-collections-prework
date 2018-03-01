@@ -32,5 +32,5 @@ def find_the_cheese(snacks)
     "cheddar"
   else
     nill
-  end 
+  end
 end
