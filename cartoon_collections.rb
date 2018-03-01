@@ -30,7 +30,7 @@ def find_the_cheese(snacks)
   if results = snacks & cheese_types.to_a
     results.join("")
 
-  
+
   end
 
   nil 
