@@ -27,13 +27,13 @@ end
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-    if results = snacks & cheese_types.to_a
+  if results = snacks & cheese_types.to_a
     results.join("")
 
-  else
-    results = nil
+  
   end
 
+  nil 
 
 
 end
