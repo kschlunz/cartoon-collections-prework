@@ -11,9 +11,9 @@ end
 def summon_captain_planet(planeteer_calls)
 
   planeteer_calls.map do |x|
-    puts x.upcase + "!"
+    final = x.upcase + "!"
    end
-
+   puts final 
 end
 
 def long_planeteer_calls# code an argument here
