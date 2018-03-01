@@ -30,7 +30,7 @@ def find_the_cheese(snacks)
   (snacks & cheese_types).any?
 
   if true
-    "cheddar"
+    cheese_types
   end
 
 end
