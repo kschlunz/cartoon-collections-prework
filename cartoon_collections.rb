@@ -31,7 +31,9 @@ def find_the_cheese(snacks)
 
   if true
     "cheddar"
-
+  elsif false
+    nill 
+    
   end
-  nill 
+  
 end
