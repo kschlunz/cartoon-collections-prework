@@ -23,15 +23,15 @@ end
 end
 
 
-cheese_types = ["cheddar", "gouda", "camembert"]
-def find_the_cheese(snacks)
 
+def find_the_cheese(snacks)
+  cheese_types = ["cheddar", "gouda", "camembert"]
 
   (snacks & cheese_types).any?
 
   if true
     "cheddar"
-  else
-    nill
+
   end
+  nill 
 end
