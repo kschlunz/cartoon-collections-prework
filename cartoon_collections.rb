@@ -31,7 +31,7 @@ def find_the_cheese(snacks)
     results.join("")
 
   else
-    nil
+    results = nil
   end 
 
 
