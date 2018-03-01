@@ -9,8 +9,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
+
   planeteer_calls.collect do |x|
-    x.upcase
+    puts x.upcase
    end
 
 end
