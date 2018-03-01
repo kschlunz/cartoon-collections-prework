@@ -25,8 +25,11 @@ end
 
 
 def find_the_cheese(snacks)
-  result = snacks.find |item|
-  if snacks.include?("cheddar")
-result
-end 
+  (snacks & cheese_types).any?
+  
+  if true 
+    "cheddar"
+  else
+    nill
+  end 
 end
