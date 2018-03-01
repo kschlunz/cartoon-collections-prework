@@ -26,6 +26,6 @@ end
 
 def find_the_cheese(snacks)
   result = snacks.find |snack|
-  item.include?("cheddar")
+  snacks.include?("cheddar")
 result
 end
